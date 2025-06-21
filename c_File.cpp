@@ -16,7 +16,7 @@ std::cout << "Your age is :" << age <<"\n";
 // std::cout << "Your age is :" << age << endl ; is having a problem ?
 std::cout <<sizeof (age) <<"\n";
 
-//Boolian Da Type
+//Boolian Data Type
 bool germany=true ;
 std::cout << germany <<"\n";
 std::cout <<sizeof (germany) ;
