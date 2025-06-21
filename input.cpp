@@ -6,7 +6,7 @@ int main()
 int age; // A memory location got alloted named age with garbege value stored i.e. random any value got stored
 cout <<age <<"\n";
 
-cout <<"Inter our Age :";
+cout <<"Inter our Age :"; //No end line character so that input in next line takes place on the same line
 cin >>age;
 cout <<"You entered your age as : " <<age << "\n";
 
