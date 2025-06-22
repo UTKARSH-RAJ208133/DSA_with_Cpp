@@ -3,7 +3,10 @@ using namespace std;
 
 int main()
 {
+
 int a=10, b=15; //We can define multiple variables in same line just by separating by comma
+
+//      Arithmatic Operators
 
 int gamma=a+b ;
 cout << "Sun is : " <<gamma <<endl;
@@ -16,6 +19,15 @@ cout <<"The remainder upon devision of b with a is : " <<(b%a) <<endl;
 
 cout <<(5/(double)2) <<endl; //Writing the data type in parrenthisis before data, will type caste the data to data type mentioned in parrenthisis
 
+
+
+//      Relational Operators
+cout << (a==b) <<endl; //False
+cout << (a!=b) <<endl; //True
+cout << (a<b) <<endl;  //True
+cout << (a<=b) <<endl; //True
+cout << (a>b) <<endl;  //False
+cout << (a>=b) <<endl; //False
 
     return 0;
 }
