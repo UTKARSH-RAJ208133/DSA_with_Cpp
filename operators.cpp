@@ -29,5 +29,11 @@ cout << (a<=b) <<endl; //True
 cout << (a>b) <<endl;  //False
 cout << (a>=b) <<endl; //False
 
+
+//      Logical Operators
+cout << ((2>1)||(1>2)) <<endl; //OR 
+cout << ((2>1)&&(1>2)) <<endl; //AND
+cout << !(1>2);         //NOT
+
     return 0;
 }
