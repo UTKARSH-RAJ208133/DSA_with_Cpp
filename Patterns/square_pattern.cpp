@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
     int n;
-    cout <<"Enter the number of sides you want for a Square : " ;
+    cout <<"Enter the number of units of a side, you want for the Square : " ;
     cin >>n;
     cout <<endl ;
 
@@ -73,6 +73,8 @@ cout <<endl;
 }
 
 
+
+cout <<"Square formed by Alphabets of type 2" <<endl;
 char alpha='A';
 for (int i=0; i<n; i++){
     for (int j=0; j<n; j++){
