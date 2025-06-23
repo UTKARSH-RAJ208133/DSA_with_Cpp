@@ -52,5 +52,35 @@ cout <<"Square formed by Characters" <<endl;
         cout <<endl;        //Endline Character so that after every alteration next line is used
     }
     
+
+
+
+
+
+
+// Square pattern of Type 2
+// 1 2 3
+// 4 5 6
+// 7 8 9
+cout <<"Square formed by numbers of type 2" <<endl;
+int num=1;
+for (int i=0; i<n; i++){
+    for (int j=0; j<n; j++){
+        cout <<num <<" ";
+        num++;
+    }
+cout <<endl;
+}
+
+
+char alpha='A';
+for (int i=0; i<n; i++){
+    for (int j=0; j<n; j++){
+        cout <<alpha <<" ";
+        alpha++;
+    }
+cout <<endl;
+}
+
     return 0;
 }
