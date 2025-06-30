@@ -41,5 +41,10 @@ int main(){
     cout <<endl;
     }
     
+
+//Alphabetcal Triangle Pattern
+
+
+
     return 0;
 }
